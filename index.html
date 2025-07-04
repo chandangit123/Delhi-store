@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi Store - Groceries in Palam</title>
+  <link rel="stylesheet" href="main.css">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #2e7d32; color: white; padding: 1rem; text-align: center; }
+    nav { background-color: #1b5e20; display: flex; justify-content: center; gap: 1rem; padding: 0.5rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .section { padding: 2rem; max-width: 900px; margin: auto; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+    .product { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; text-align: center; }
+    .product img { width: 100px; height: 100px; object-fit: cover; }
+    footer { background-color: #2e7d32; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    @media (max-width: 600px) { nav { flex-direction: column; align-items: center; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Delhi Store</h1>
+  <p>Your Local Grocery Store in Palam, New Delhi</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="home">
+  <h2>Welcome to Delhi Store</h2>
+  <p>We offer fresh and affordable groceries for your daily needs. Visit us today for the best quality products at great prices.</p>
+</section>
+
+<section class="section" id="products">
+  <h2>Our Daily Essentials</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61kbXUJZ5aL._SL1500_.jpg" alt="Dettol Handwash">
+      <p>Dettol Handwash</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71Y+1oJtb7L._SL1500_.jpg" alt="Surf Excel">
+      <p>Surf Excel Detergent</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81czN4+bIgL._SL1500_.jpg" alt="Maggi Noodles">
+      <p>Maggi 2-Minute Noodles</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81wZcL4XmGL._SL1500_.jpg" alt="Colgate">
+      <p>Colgate Toothpaste</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71OT9ULtLzL._SL1500_.jpg" alt="Red Label Tea">
+      <p>Red Label Tea</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71ROIZ5D7uL._SL1500_.jpg" alt="MDH Masala">
+      <p>MDH Chaat Masala</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Delhi Store is located in the heart of Palam, serving the community with quality groceries, household essentials, and personal care products. We pride ourselves on customer satisfaction and reliability.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> RZ-26, C/3, Near Mother Dairy, Indira Park, Palam, New Delhi, 110046</p>
+  <p><strong>Phone:</strong> 8700816090, 9667248575</p>
+  <p><strong>Email:</strong> <a href="mailto:guptamaster999@gmail.com">guptamaster999@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Delhi Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
